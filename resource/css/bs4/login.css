@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 12, 2019, 5:31:43 PM
+    Author     : anar.rustamov
+*/
+
+html,
+body {
+  height: 100%;
+}
+
+
+.ne{
+  position: absolute;
+  
+  cursor: ne-resize;
+  right: -1px;
+  top: -1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.se{
+  position: absolute;
+  
+  cursor: se-resize;
+  right: -1px;
+  bottom: -1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.sw{
+  position: absolute;
+  
+  cursor: sw-resize;
+  left: -1px;
+  bottom: -1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+
+}
+.nw{
+  position: absolute;
+  
+  cursor: nw-resize;
+  left: -1px;
+  top: -1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+
+}
